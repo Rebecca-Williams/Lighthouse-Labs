@@ -1,1 +1,35 @@
-style.css
+h1 {
+    font-family: Arial;
+    text-align: center
+}
+
+p {
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial;
+}
+#login_form {
+    border-radius: 50px;
+    border: 2px solid green;
+    padding: 25px; 
+    width: 250px; 
+    font-family: Arial;
+    margin: auto;
+}
+
+#signup_form {
+    border-radius: 50px;
+    border: 2px solid green;
+    padding: 25px; 
+    width: 250px; 
+    font-family: Arial;
+    margin: auto;
+}
+
+input {
+     display: inline-block;
+     width: 200px;
+} 
+
+

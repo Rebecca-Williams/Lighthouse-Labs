@@ -1,9 +1,54 @@
 <!doctype html>
 <html>
     <head>
-      <title></title>
+     <title>My Project</title>
       <link rel="stylesheet" href="public/stylesheets/style.css">
     </head>
+
     <body>
+      <h1>Parent Portal Login</h1>
+       <form action="/login" id="login_form" method="Post">
+      <p>Sign In</p>
+      <div>
+      <label for="email_address">Email address</label>
+      <input type="text" name="email_address" id="email_address" value="" placeholder="email address"/>
+      </div><br/>
+
+      <div>
+      <label for="password">Password
+      </label>
+      <input type="text" name="password" id="password" value="" placeholder="password"/>
+      </div><br/>
+      <input type="submit" value="submit">
+
+      </form>
+
+      <div id="sign-up">
+      <form action="/signup" id="signup_form" method="Post">
+
+      <div>
+      <p>Sign Up</p>
+      <div>
+      <label for="Username">Username</label>
+      <input type="text" id="username" value="" placeholder="username"/></div><br/>
+
+      <div>
+      <label for="email">Email address</label>
+      <input type="text" name="email" id="email" value="" placeholder="email address"/>
+      </div><br/>
+
+      <div>
+      <label for="password">Password</label>
+      <input type="text" id="password" value="" placeholder="password"/></div><br/>
+
+      <div>
+      <label for="confirm_password">Confirm Password</label>
+      <input type="text" id="confirm_password" value="" placeholder="confirm password"/></div><br/>
+
+      <div>
+      <input type="submit" id="submit"</div><br/>
+
+      </form>
+
     </body>
 </html>
