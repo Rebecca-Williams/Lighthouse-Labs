@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Profile Form</title>
+    <link rel="stylesheet" href="public/stylesheets/style.css"
+  </head>
+  <body>
+    <form action="/profile/edit" method="POST">
+  
+      <label for="email-address">E-mail Address:</label>
+      <input type="email" name="emailaddress" id="email-address" placeholder="enter your e-mail address..."><br>
+
+      <label for="password">Password:</label>
+      <input type="password" name="psw" id="password" placeholder="enter your password..."><br>
+
+      <label for="gender">Gender</label>
+      <input type="radio" name="sex" value="male" checked>Male<br>
+      <input type="radio" name="sex" value="female" checked>Female<br>
+
+      <label for="first_name">First Name:</label>
+      <input type="text" name="firstname" id="first_name" placeholder="enter your first name..."><br>
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" name="lastname" id="last_name" placeholder="enter your last name..."><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
