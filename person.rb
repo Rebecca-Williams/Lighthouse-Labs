@@ -30,9 +30,9 @@ end
 puts "Are you a Doctor or a Lawyer?"
 title = gets.chomp.downcase
 puts "What's your first name?"
-first_name = gets.chomp.downcase
+first_name = gets.chomp.downcase.capitalize
 puts "What's your last name?"
-last_name = gets.chomp.downcase
+last_name = gets.chomp.downcase.capitalize
 puts "Are you male or female?"
 gender = gets.chomp.downcase
 
